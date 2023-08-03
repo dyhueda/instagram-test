@@ -8,7 +8,7 @@ async function Home() {
   console.log(images);
   return (
     <div>
-      <div className="grid grid-cols-2 gap-10 m-40">
+      <div className="grid grid-cols-1 gap-4 m-10 md:m-30 md:gap-10 md:grid-cols-2 lg:grid-cols-3">
         {images.map((image) => (
           <div
             className="bg-slate-300 p-2 rounded-xl h-full w-full hover:shadow-lg"

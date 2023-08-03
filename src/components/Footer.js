@@ -5,7 +5,7 @@ export default function Footer(){
   }
     return(
         <footer>
-          <div className="flex bg-black text-white p-4 justify-center text-xl">
+          <div className="flex bg-black text-white p-2 md:p-4 justify-center text-sm md:text-xl">
             <p>Created By Diego Ueda</p>
             <button onClick={goToTop} className="absolute right-10">Top</button>
           </div>
